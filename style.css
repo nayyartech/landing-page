@@ -803,7 +803,8 @@ body {
     margin: 140px auto 0;
 }
 .logo-footer{
-    width: 180px;
+    width: 227px;
+    height: 38px;
 }
 .footer_links{
     display: flex;
