@@ -12,7 +12,8 @@ body {
 }
 
 .navbar-expand-lg {
-    height: 100px;
+    height: 162px;
+    margin-left: 27px;
 }
 
 .nav-item {
