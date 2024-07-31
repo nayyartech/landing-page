@@ -1040,3 +1040,53 @@ body {
         padding: 0px 20px;
     }
 }
+@media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .navbar-toggler {
+      margin-left: auto;
+    }
+  
+    .about-section, .banner-section, .services-section, .team-section {
+      text-align: center;
+    }
+  
+    .services_cards, .case-studies_cards, .process_cards {
+      flex-direction: column;
+    }
+  
+    .team_cards-collapsed {
+      flex-direction: column;
+    }
+  
+    .contact-us_wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer {
+      text-align: center;
+    }
+  
+    .footer_links, .footer_contacts {
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .navbar-brand img {
+      width: 80%;
+    }
+  
+    .footer_contacts {
+      flex-direction: column;
+    }
+  
+    .sub_button {
+      margin-top: 10px;
+    }
+  }
+  
