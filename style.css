@@ -158,7 +158,6 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 49px;
-    transition: all .3s ease-in-out;
 
 }
 
@@ -175,7 +174,6 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 49px;
-    transition: all .3s ease-in-out;
 
 }
 
@@ -192,7 +190,6 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 49px;
-    transition: all .3s ease-in-out;
 
 }
 
@@ -210,7 +207,6 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 49px;
-    transition: all .3s ease-in-out;
 
 }
 
@@ -226,7 +222,6 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 49px;
-    transition: all .3s ease-in-out;
 
 }
 
@@ -313,7 +308,6 @@ body {
     height: 41px;
     margin-top: 93px;
     cursor: pointer;
-    transition: all .3s ease-in-out;
 }
 
 .link_text {
@@ -387,7 +381,6 @@ body {
     background-color: #000;
     color: #fff;
     cursor: pointer;
-    transition: all .3s ease-in-out;
     border-radius: 14px;
     padding: 20px 35px;
     border: 1px solid #191A23;
@@ -438,7 +431,6 @@ body {
     padding: 0;
     height: 41px;
     cursor: pointer;
-    transition: all .3s ease-in-out;
 }
 
 .case-link_icon {
@@ -523,17 +515,6 @@ body {
     transition: all .2s ease-in-out;
 }
 
-/* .process-card_button{
-    transform: scale(1.1);
-    background-image: url(new.png);
-    background-size: 58px;
-    background-image: none;
-    width: 58px;
-    height: 59px;
-    transition: all .3s ease-in-out;
-    cursor: pointer;
-    
-} */
 .process-card_bottom {
     display: flex;
     flex-direction: column;
@@ -592,7 +573,6 @@ body {
     top: 39px;
     right: 35px;
     cursor: pointer;
-    transition: all .3s ease-in-out;
 }
 
 .team-card_top {
@@ -672,7 +652,6 @@ body {
     align-items: flex-start;
     justify-content: center;
     gap: 15px;
-    transition: all .3s ease-in-out;
 }
 
 .testimonial-card {
@@ -783,7 +762,6 @@ body {
 .button-black {
     all: unset;
     cursor: pointer;
-    transition: all .3s ease-in-out;
     border-radius: 14px;
     padding: 20px 35px;
     border: 1px solid #191A23;
@@ -1089,4 +1067,99 @@ body {
       margin-top: 10px;
     }
   }
-  
+  /* Responsive adjustments */
+@media (max-width: 1200px) {
+    .container, .services_section, .case-studies_cards, .process_cards {
+        padding: 0 20px;
+    }
+
+    .navbar-brand {
+        padding: 0 20px;
+    }
+
+    .section-title {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .services_cards, .team_cards-collapsed {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .case-studies_cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services_proposal-card {
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-expand-lg {
+        height: auto;
+    }
+
+    .container h1 {
+        font-size: 40px;
+    }
+
+    .container p {
+        font-size: 16px;
+    }
+
+    .btn-primary, .btn1-primary {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .services_section, .process_cards, .team_cards-collapsed {
+        padding: 10px;
+    }
+
+    .services_cards, .team_cards-collapsed {
+        gap: 20px;
+    }
+
+    .service-card_white, .service-card_green, .service-card_black, .process-card_open, .process-card_close {
+        width: 100%;
+    }
+
+    .case-studies_cards {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container h1 {
+        font-size: 32px;
+    }
+
+    .container p {
+        font-size: 14px;
+    }
+
+    .btn-primary, .btn1-primary {
+        padding: 10px;
+    }
+
+    .services_section, .process_cards, .team_cards-collapsed {
+        padding: 5px;
+    }
+
+    .services_cards, .team_cards-collapsed {
+        flex-direction: column;
+    }
+
+    .case-studies_cards {
+        flex-direction: column;
+    }
+
+    .service-card_white, .service-card_green, .service-card_black, .process-card_open, .process-card_close {
+        width: 100%;
+        padding: 10px;
+    }
+}
